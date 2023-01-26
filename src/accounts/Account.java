@@ -1,7 +1,8 @@
 package accounts;
 
 public class Account {
-    private double balance;
+    //protected access allows subclasses to access variable
+    protected double balance;
     private double interestRate;
 
     //This is our constructor; constructors with arguments do not get inherited unless called by super()
