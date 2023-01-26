@@ -4,7 +4,7 @@ public class Account {
     private double balance;
     private double interestRate;
 
-    //This is our constructor
+    //This is our constructor; constructors with arguments do not get inherited unless called by super()
     public Account(double balance, double interestRate) {
         this.balance = balance;
         this.interestRate = interestRate;
